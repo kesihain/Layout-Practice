@@ -1,0 +1,57 @@
+section img{
+    width: 150px;
+}
+
+#homepage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgray;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+#container{
+    display: flex;
+}
+
+aside{
+    background-color: pink;
+    padding: 10px;
+}
+
+aside img{
+    border-radius: 300px ;
+}
+
+article section{
+    display: flex;
+    padding: 10px;
+}
+
+.even{
+    flex-direction: row-reverse;
+    background-color: yellow;
+}
+
+.odd{
+    background-color: greenyellow;
+}
+
+#links{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
